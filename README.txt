@@ -63,6 +63,12 @@ If either application runs into permissions issues or connection faults, detaile
 * **iPhone Photo Copier Log**:
   `C:\Users\<YourUsername>\AppData\Local\iPhonePhotoCopier\iphone_copier.log`
 
+## 4. Support & Feedback
+
+For support, feedback, or tool requests, feel free to contact us at:
+📧 **Email**: [kry.home.entertainment@gmail.com](mailto:kry.home.entertainment@gmail.com)
+
 ---
 © 2026 KRY Soft Solutions. All rights reserved.
+
 

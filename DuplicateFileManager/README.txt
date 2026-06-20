@@ -20,6 +20,11 @@ This standalone utility helps you scan folders, detect duplicate files using two
 Detailed logs are saved to your local Windows user directory:
 `C:\Users\<YourUsername>\AppData\Local\DuplicateFileManager\duplicate_finder.log`
 
+## Support & Feedback
+For support, bugs, or feature suggestions, reach us at:
+📧 **Email**: [kry.home.entertainment@gmail.com](mailto:kry.home.entertainment@gmail.com)
+
 ---
 © 2026 KRY Soft Solutions. All rights reserved.
+
 
