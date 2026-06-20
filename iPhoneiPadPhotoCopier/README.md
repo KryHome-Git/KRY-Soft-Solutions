@@ -1,5 +1,7 @@
 # iPhone iPad Photo Copier - Instructions
 
+![iPhone iPad Photo Copier UI](../media/photo_copier_screenshot.png)
+
 This standalone utility copies photos and videos from your connected iPhone or iPad to your Windows PC over USB. It tracks what has already been copied, ensuring only new files are transferred.
 
 ## Features

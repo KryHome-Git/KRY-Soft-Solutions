@@ -1,5 +1,7 @@
 # Duplicate File Manager - Instructions
 
+![Duplicate File Manager UI](../media/duplicate_finder_screenshot.png)
+
 This standalone utility helps you scan folders, detect duplicate files using two-pass hashing, isolate duplicates into a separate folder, and delete them permanently.
 
 ## Features

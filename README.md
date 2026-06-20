@@ -10,6 +10,8 @@ Applications are located in their respective folders:
 
 ## 1. Duplicate File Manager
 
+![Duplicate File Manager UI](media/duplicate_finder_screenshot.png)
+
 ### Features
 * **Double-Pass Hashing**: Scans file sizes first, runs a fast-hash (1KB) pre-screen, and only calculates a full SHA-256 hash for identical matches. Extremely fast.
 * **Background Threading**: Heavy scans and deletions are run in background threads to keep the UI completely responsive.
@@ -18,7 +20,7 @@ Applications are located in their respective folders:
 * **Dark Mode**: Switch themes dynamically in the top-right corner.
 
 ### How to Use
-1. Double-click `Bin\DuplicateFileManager.exe` to run.
+1. Double-click `DuplicateFileManager\DuplicateFileManager.exe` to run.
 2. Click **Browse Folder...** to select your target folder.
 3. Click **Find Duplicates** to scan.
 4. Verify files in the `_duplicates` subdirectory inside your folder.
@@ -27,6 +29,8 @@ Applications are located in their respective folders:
 ---
 
 ## 2. iPhone iPad Photo Copier
+
+![iPhone iPad Photo Copier UI](media/photo_copier_screenshot.png)
 
 ### Features
 * **Chunk-Based File Streaming**: Transfers media in 64KB blocks to prevent memory spikes or system crashes when copying large 4K videos.
