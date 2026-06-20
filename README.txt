@@ -38,7 +38,7 @@ Applications are located in their respective folders:
 * **Dual Progress Bars**: Smoothly displays both overall folder progress and current file copying progress (in MBs).
 * **Graceful Cancellation**: Cleanly abort transfers mid-way via the "Cancel Copy" button.
 * **Expanded File Formats**: Full support for standard formats, Apple ProRAW (`.DNG`), sidecar edit files (`.AAE`), `.GIF`, and `.WEBP`.
-* **Active USB Connection Monitoring & Device Name Display**: Instantly detects and displays connection status (e.g., `Disconnected` or `Connected - Kumud's iPhone`) in the header. Controls are automatically locked unless a device is connected, preventing empty connection exceptions.
+* **Active USB Connection Monitoring & Device Name Display**: Instantly detects and displays connection status (e.g., `Disconnected` or `Connected - User's iPhone`) in the header. Controls are automatically locked unless a device is connected, preventing empty connection exceptions.
 * **Auto iTunes Driver Setup**: Automatically checks for Apple Mobile Device Support (iTunes) on launch. If missing, it requests your consent to download and run the installer directly from Apple in a background thread with a download progress indicator.
 
 

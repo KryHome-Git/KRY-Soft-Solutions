@@ -15,7 +15,7 @@ This standalone utility copies photos and videos from your connected iPhone or i
 * **Dual Progress Bars**: Smoothly displays both overall folder progress and current file copying progress (in MBs).
 * **Graceful Cancellation**: Cleanly abort transfers mid-way via the "Cancel Copy" button.
 * **Expanded File Formats**: Full support for standard formats, Apple ProRAW (`.DNG`), sidecar edit files (`.AAE`), `.GIF`, and `.WEBP`.
-* **Active USB Connection Monitoring & Device Name Display**: Instantly detects and displays connection status (e.g., `Disconnected` or `Connected - Kumud's iPhone`) in the header. Controls are automatically locked unless an iPhone or iPad is connected, preventing empty connection exceptions from occurring.
+* **Active USB Connection Monitoring & Device Name Display**: Instantly detects and displays connection status (e.g., `Disconnected` or `Connected - User's iPhone`) in the header. Controls are automatically locked unless an iPhone or iPad is connected, preventing empty connection exceptions from occurring.
 
 ## Prerequisites
 1. **iTunes Drivers**: The Apple Mobile Device Support drivers are required for Windows to communicate with iOS/iPadOS devices over USB. The app will help you install them if they are missing.
