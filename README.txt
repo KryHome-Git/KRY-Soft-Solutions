@@ -2,9 +2,9 @@
 
 This package contains two optimized, standalone Windows utilities designed to manage your media and backups. Both applications feature modern CustomTkinter user interfaces (with Windows 11 design styling and Dark/Light mode support), automatic background execution to prevent UI freezing, and local diagnostics logging.
 
-Applications are located in the `Bin/` folder:
-- **DuplicateFileManager.exe**: Instantly scan folders, detect duplicates using pre-screening and full SHA-256 analysis, isolate duplicates into a separate folder, and delete them permanently.
-- **iPhonePhotoCopier.exe**: Back up photos and videos from your connected iPhone to your Windows PC over USB with double progress indicators, multi-device tracking, and streaming memory protection.
+Applications are located in their respective folders:
+- **DuplicateFileManager/DuplicateFileManager.exe**: Instantly scan folders, detect duplicates using pre-screening and full SHA-256 analysis, isolate duplicates into a separate folder, and delete them permanently.
+- **iPhoneiPadPhotoCopier/iPhoneiPadPhotoCopier.exe**: Back up photos and videos from your connected iPhone or iPad to your Windows PC over USB with double progress indicators, multi-device tracking, and streaming memory protection.
 
 ---
 
@@ -26,7 +26,7 @@ Applications are located in the `Bin/` folder:
 
 ---
 
-## 2. iPhone Photo Copier
+## 2. iPhone iPad Photo Copier
 
 ### Features
 * **Chunk-Based File Streaming**: Transfers media in 64KB blocks to prevent memory spikes or system crashes when copying large 4K videos.
@@ -38,15 +38,16 @@ Applications are located in the `Bin/` folder:
 * **Dual Progress Bars**: Smoothly displays both overall folder progress and current file copying progress (in MBs).
 * **Graceful Cancellation**: Cleanly abort transfers mid-way via the "Cancel Copy" button.
 * **Expanded File Formats**: Full support for standard formats, Apple ProRAW (`.DNG`), sidecar edit files (`.AAE`), `.GIF`, and `.WEBP`.
-* **Active USB Connection Monitoring**: Instantly detects and displays connection status (🔴 Disconnected / 🟢 Connected) in the header. Controls are automatically locked unless an iPhone is connected, preventing empty connection exceptions from occurring.
+* **Active USB Connection Monitoring & Device Name Display**: Instantly detects and displays connection status (e.g., `Disconnected` or `Connected - Kumud's iPhone`) in the header. Controls are automatically locked unless a device is connected, preventing empty connection exceptions.
+* **Auto iTunes Driver Setup**: Automatically checks for Apple Mobile Device Support (iTunes) on launch. If missing, it requests your consent to download and run the installer directly from Apple in a background thread with a download progress indicator.
 
 
 ### Prerequisites
-1. **Install iTunes**: Make sure iTunes is installed on your Windows PC (required for Apple USB connection drivers).
+1. **Apple Mobile Device Support**: Required to connect your device. The app will automatically detect and help install it on launch, or you can install iTunes manually.
 2. **Trust Computer**: Unlock your connected iPhone and tap "Trust This Computer" when prompted.
 
 ### How to Use
-1. Double-click `Bin\iPhonePhotoCopier.exe` to run.
+1. Double-click `iPhoneiPadPhotoCopier\iPhoneiPadPhotoCopier.exe` to run.
 2. Click **Browse...** to select the target backup folder on your computer.
 3. Choose your backup mode: **Incremental Backup** (default) or **Fresh Backup**.
 4. Click **Start Copy** to run.
